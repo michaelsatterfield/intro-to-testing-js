@@ -17,3 +17,14 @@ var sayHello = function(input) {
         return "Hello, Jane!"
     }
 }
+
+var sayHello = function(input) {
+    if (input === "Pat") {
+        return "Hello, Pat!"
+    } else if (input === "Alex") {
+        return "Hello, Alex!"
+    } else {
+        return "Hello, Jane!"
+    }
+}
+console.log(sayHello())
