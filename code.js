@@ -2,7 +2,11 @@
 const helloWorld = function() {
     return "Hello, World!"
 }
-const sayHello = function() {
+var sayHello = function() {
     return ""
+}
+
+var sayHello = function() {
+    return "Hello, Jane!"
 }
 
